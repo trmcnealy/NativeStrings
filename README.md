@@ -1,2 +1,2 @@
 # NativeStrings
-Structs for Marshaling text between V++ and C#
+Structs for Marshaling text between C++ and C#
