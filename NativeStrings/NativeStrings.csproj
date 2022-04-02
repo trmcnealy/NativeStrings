@@ -6,6 +6,8 @@
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <RootNamespace>System</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <NuspecFile>NativeStrings.nuspec</NuspecFile>
   </PropertyGroup>
 
 </Project>

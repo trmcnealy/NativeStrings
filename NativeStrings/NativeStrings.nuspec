@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NativeStrings</id>
+    <version>1.0.0</version>
+    <authors>Timothy R. McNealy</authors>
+    <owners>Timothy R. McNealy</owners>
+    <license type="expression">BSD-3-Clause</license>
+    <projectUrl>https://github.com/trmcnealy/NativeStrings</projectUrl>
+    <repository type="git" url="https://github.com/trmcnealy/NativeStrings.git"/>
+    <icon>nindra.png</icon>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Structs for Marshaling text between V++ and C#</description>
+    <releaseNotes></releaseNotes>
+    <copyright>© Timothy R. McNealy</copyright>
+    <tags>native strings utf8</tags>
+    <dependencies>
+      <group targetFramework="net6.0">
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+  <file src="..\.vs\nindra.png"
+        target=""/>
+
+  <file src="bin\Release\net6.0\NativeStrings.pdb"
+        target="lib\net6.0"/>
+
+  <file src="bin\Release\net6.0\NativeStrings.dll"
+        target="lib\net6.0"/>
+
+  </files>
+</package>
